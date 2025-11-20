@@ -31,8 +31,12 @@ A Deno-based CLI for browsing Jira Cloud issues (PBIs) and creating Git branches
 ```bash
 git clone https://github.com/your-org/jira-pbi-cli.git
 cd jira-pbi-cli
+
+deno install --global   --allow-net   --allow-read   --allow-write   --allow-env   --allow-run   --name jira-pbi-cli   src/main.ts
 ```
-Or download the ZIP from GitHub, extract it, and `cd` into the directory.
+After installation, ensure `$HOME/.deno/bin` is on your PATH, then run `jira-pbi-cli setup` / `jira-pbi-cli` anywhere. Uninstall with `deno uninstall --global jira-pbi-cli`.
+
+> Prefer not to install globally? You can still run `deno task jira` or `deno task jira:setup` inside the cloned repository.
 
 ## Usage
 
