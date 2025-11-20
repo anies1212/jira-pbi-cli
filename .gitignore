@@ -1,0 +1,10 @@
+.DS_Store
+.env*
+dist/
+node_modules/
+tmp/
+# VSCode local config
+.idea/
+.vscode/
+# Deno cache if ever created locally
+.deno/
