@@ -316,7 +316,13 @@ async function createBranch(
 async function selectBranchPrefix(
   lastUsed?: string,
 ): Promise<string | undefined> {
-  const options = BRANCH_PREFIXES.map((prefix) => ({
+  const prioritized = ["feat"];
+  const sortedPrefixes = [
+    ...BRANCH_PREFIXES.filter((prefix) => prioritized.includes(prefix.value)),
+    ...BRANCH_PREFIXES.filter((prefix) => !prioritized.includes(prefix.value)),
+  ];
+
+  const options = sortedPrefixes.map((prefix) => ({
     name: `${prefix.value.padEnd(10)} ${prefix.description}`,
     value: prefix.value,
   }));

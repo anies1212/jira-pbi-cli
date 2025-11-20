@@ -183,6 +183,16 @@
     "https://deno.land/x/cliffy@v1.0.0-rc.4/table/consume_words.ts": "369d065dbf7f15c664ea8523e0ef750fb952aea6d88e146c375e64aec9503052",
     "https://deno.land/x/cliffy@v1.0.0-rc.4/table/deps.ts": "cbb896e8d7a6b5e3c2b9dda7d16638c202d9b46eb738c2dae1fa9480d8091486",
     "https://deno.land/x/cliffy@v1.0.0-rc.4/table/row.ts": "79eb1468aafdd951e5963898cdafe0752d4ab4c519d5f847f3d8ecb8fe857d4f",
-    "https://deno.land/x/cliffy@v1.0.0-rc.4/table/table.ts": "298671e72e61f1ab18b42ae36643181993f79e29b39dc411fdc6ffd53aa04684"
+    "https://deno.land/x/cliffy@v1.0.0-rc.4/table/table.ts": "298671e72e61f1ab18b42ae36643181993f79e29b39dc411fdc6ffd53aa04684",
+    "https://raw.githubusercontent.com/anies1212/jira-pbi-cli/main/src/commands/browse.ts": "dfadd4813d28bdd9562714e5bbc23b88307df63f561a06ee6b9255f11bdc905b",
+    "https://raw.githubusercontent.com/anies1212/jira-pbi-cli/main/src/commands/settings.ts": "32524a663aa24dbc5fb513cd757909a05cae38ec261a2a38f522abe76f9ac88f",
+    "https://raw.githubusercontent.com/anies1212/jira-pbi-cli/main/src/commands/setup.ts": "a5d22a762ad9ad87caf2d379060ee9e81601d1c13d54fa2bd9ee73fd6e36b91c",
+    "https://raw.githubusercontent.com/anies1212/jira-pbi-cli/main/src/config.ts": "a86344cca754491c9973888d18bd3f37cc5accb529bd1ad8b22f00f25ab09670",
+    "https://raw.githubusercontent.com/anies1212/jira-pbi-cli/main/src/jira_client.ts": "f272657b2ab88ec58c26cfc4c907f6bc5adfe742a2ea26485e2d75d3201f696c",
+    "https://raw.githubusercontent.com/anies1212/jira-pbi-cli/main/src/lib/git.ts": "9c96321f92d84fd9f7573084fcef3311ba099e0fc576fbb5f345d2d2a83eb8ec",
+    "https://raw.githubusercontent.com/anies1212/jira-pbi-cli/main/src/lib/jql.ts": "a229892b9ef0a1f81e8b37902567ee4e79e1cc0518bdba12dd5d6e9337538698",
+    "https://raw.githubusercontent.com/anies1212/jira-pbi-cli/main/src/main.ts": "f64ca07c2c4aa9c21a0d27da7b0e467980275ead72bb5a39d9fd52aeac6c4a8c",
+    "https://raw.githubusercontent.com/anies1212/jira-pbi-cli/main/src/oauth.ts": "7783a0b844b54e8f277918015134fc6928dc97a83ea323f439a8a201de1a03ba",
+    "https://raw.githubusercontent.com/anies1212/jira-pbi-cli/main/src/prefixes.ts": "bae06cf7136c300ac8fa16c2011134f68d33fabe3b132de70f9e996f2a78feaf"
   }
 }

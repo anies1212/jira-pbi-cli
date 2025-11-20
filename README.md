@@ -9,6 +9,9 @@ A Deno-based CLI for browsing Jira Cloud issues (PBIs) and creating Git branches
 - Create Git branches following the `prefix/{ISSUE_KEY}` pattern. All prefixes from [this Qiita article](https://qiita.com/muranakar/items/20a7927ffa63a5ca226a) are embedded and searchable, and you can enter a custom prefix at runtime.
 - Detect existing branches and offer to switch rather than recreate them.
 
+## Demo
+<video src="./assets/demo.mov" controls title="jira-pbi-cli demo" width="720"></video>
+
 ## Prerequisites
 1. **Deno 1.42+** – Install via `brew install deno` or follow the [official guide](https://deno.com/manual/getting_started/installation).
 2. **Atlassian OAuth 2.0 (3LO) app** – Create one in the [Atlassian Developer Console](https://developer.atlassian.com/console/myapps/):
