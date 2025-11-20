@@ -51,7 +51,7 @@ After installation, ensure `$HOME/.deno/bin` is on your PATH, then run `jira-pbi
 
 ### 1. Run the setup wizard
 ```bash
-deno task jira:setup
+jira-pbi-cli setup
 ```
 The wizard asks for:
 - Atlassian OAuth Client ID / Client Secret.
@@ -64,7 +64,7 @@ All data (client credentials, selected site, tokens, last-used prefix, default J
 
 ### 2. Browse issues and create branches
 ```bash
-deno task jira
+jira-pbi-cli
 ```
 - Navigate with arrow keys, type to search, and press Enter to inspect an issue.
 - If children exist, choose “View child issues” to drill down.
@@ -74,7 +74,7 @@ deno task jira
 
 ### 3. Change the default ordering or JQL
 ```bash
-deno run --allow-net --allow-read --allow-write --allow-env --allow-run src/main.ts settings
+jira-pbi-cli settings
 ```
 - Choose between:
   - Assigned to me & not done (default)
