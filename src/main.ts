@@ -20,6 +20,6 @@ if (import.meta.main) {
     .description("Change default ordering presets or JQL")
     .action(() => runSettingsCommand());
 
-  program.default("browse");
+  program.reset().default("browse");
   await program.parse(Deno.args);
 }
