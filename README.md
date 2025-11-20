@@ -10,7 +10,8 @@ A Deno-based CLI for browsing Jira Cloud issues (PBIs) and creating Git branches
 - Detect existing branches and offer to switch rather than recreate them.
 
 ## Demo
-<video src="./assets/demo.mov" controls title="jira-pbi-cli demo" width="720"></video>
+<video src="https://github.com/user-attachments/assets/09ebef67-5506-4900-8beb-4668b8a5d8bb" controls title="jira-pbi-cli demo" width="720"></video>
+
 
 ## Prerequisites
 1. **Deno 1.42+** – Install via `brew install deno` or follow the [official guide](https://deno.com/manual/getting_started/installation).
