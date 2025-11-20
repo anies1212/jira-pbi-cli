@@ -36,13 +36,13 @@ deno install --global \
   --allow-env \
   --allow-run \
   --name jira-pbi-cli \
-  https://raw.githubusercontent.com/your-org/jira-pbi-cli/main/src/main.ts
+  https://raw.githubusercontent.com/anies1212/jira-pbi-cli/main/src/main.ts
 ```
 After installation, ensure `$HOME/.deno/bin` is on your PATH, then run `jira-pbi-cli setup` / `jira-pbi-cli` anywhere. Uninstall with `deno uninstall --global jira-pbi-cli`.
 
 > Prefer not to install globally or need to inspect the source? Clone the repo instead:
 > ```bash
-> git clone https://github.com/your-org/jira-pbi-cli.git
+> git clone https://github.com/anies1212/jira-pbi-cli.git
 > cd jira-pbi-cli
 > deno task jira:setup
 > ```
