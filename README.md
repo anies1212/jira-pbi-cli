@@ -70,9 +70,9 @@ deno run --allow-net --allow-read --allow-write --allow-env --allow-run src/main
 - Optionally update the stored default JQL in the same wizard.
 
 ### 4. Global command (optional)
-Install the CLI globally so you can run it from any repository:
+Install the CLI globally (Deno 2.x requires the `--global` flag) so you can run it from any repository:
 ```bash
-deno install \
+deno install --global \
   --allow-net \
   --allow-read \
   --allow-write \
@@ -81,7 +81,7 @@ deno install \
   --name jira-pbi-cli \
   src/main.ts
 ```
-After installation, ensure `$HOME/.deno/bin` is on your PATH, then run `jira-pbi-cli setup` / `jira-pbi-cli` anywhere. Uninstall with `deno uninstall jira-pbi-cli`.
+After installation, ensure `$HOME/.deno/bin` is on your PATH, then run `jira-pbi-cli setup` / `jira-pbi-cli` anywhere. Uninstall with `deno uninstall --global jira-pbi-cli`.
 
 ### Command options
 ```bash
